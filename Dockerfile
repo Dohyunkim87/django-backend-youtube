@@ -1,5 +1,5 @@
 FROM python:3.11
-LABEL maintainer='seopftware'
+LABEL maintainer="Dohyunkim87"
 
 ENV PYTHONUNBUFFERED 1
 
@@ -23,7 +23,7 @@ RUN python -m venv /py && \
         --no-create-home \
         django-user
 
-ENV PATH="/py/bin/:$PATH"
+ENV PATH="/py/bin:$PATH"
 
 USER django-user
 
