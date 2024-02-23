@@ -56,3 +56,11 @@
 8. Chatting (예정)
 
 - User:FK (nickname)
+
+## 수업 진행
+- 1일차: Project Settings (Docker => Django, Github => Github Actions(CI))
+- 2일차:
+  - Project Settings (PostgreSQL)
+  - CustomUser Model
+    - 왜 커스텀 유저 모델을 사용하는가>
+       - 장고의 유저 모델을 상속 받아서, 기존에 구현된 기능을 내가 직접 구현하지 않아도 되기 때문에
